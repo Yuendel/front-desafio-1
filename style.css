@@ -16,19 +16,17 @@ body {
     min-height: 100vh;
 }
 
-.item {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    margin-top: 1.2rem;
-}
-
 header {
     grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    width: auto;
+    padding: 1.3rem;
+}
+
+.item {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 header img {
@@ -39,6 +37,10 @@ header a {
     text-decoration: none;
     color: inherit;
     margin-right: 3.125rem;
+}
+
+header a:hover {
+    color: #FE0078;
 }
 
 .cabecalho {
@@ -105,6 +107,7 @@ main img {
     display: flex;
     flex-direction: column;
     height: min-content;
+    margin-top: 1.1rem;
 }
 
 .menu .search-field {
@@ -183,4 +186,107 @@ footer {
     background-color: #222222;
     color: #fff;
     height: 4.375rem;
+}
+
+/*Extra Styles of "continueReading"*/
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 1.438rem;
+}
+
+form .comentarioLinha1 {
+    display: flex;
+    flex-direction: row;
+}
+
+form .comentarioLinha1 input {
+    width: 22.125rem;
+    height: 2.625rem;
+    background: #FFFFFF;
+    border: 0.063rem solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 0.125rem;
+    margin-top: 0.658rem;
+    margin-bottom: 1.438rem;
+}
+
+form .comentarioLinha1 input:hover {
+    border-color: #FE0078;
+}
+
+form textarea {
+    margin-top: 0.658rem;
+    border: 0.063rem solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 0.125rem;
+}
+
+form textarea:hover {
+    border-color: #FE0078;
+}
+
+.comentario-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-Comentario {
+    background-color: #FE0078;
+    color: white;
+    height: 2.4rem;
+    width: 7.36rem;
+    margin: 1.25rem;
+    margin-right: 0;
+}
+
+/*Extra styles of "contact"*/
+
+.contato {
+    margin: 0.9rem;
+}
+
+.contato h1 {
+    font-size: 1.5rem;
+}
+
+.contato p {
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.info-contatos .icon-contato {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-Contatos {
+    color: #000000;
+}
+
+.info-Contatos h2 {
+    font-size: 1rem;
+    margin: 1.5rem;
+}
+
+.info-Contatos span {
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-left: 0.2rem;
+}
+
+.info-Contatos .icon-contato {
+    margin-left: 1.5rem;
+}
+
+.info-Contatos p {
+    margin-left: 1.5rem;
 }
