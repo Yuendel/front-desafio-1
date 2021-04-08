@@ -190,9 +190,25 @@ footer {
 
 /*Extra Styles of "continueReading"*/
 
+.card-Completo * {
+    color: #000000;
+}
+
+.card-Completo {
+    padding-bottom: 1.525rem;
+}
+
+.card-Completo span {
+    font-size: 0.75rem;
+    margin-left: 1.2rem;
+    color: #929292;
+}
+
 form {
     display: flex;
     flex-direction: column;
+    color: #000000;
+    font-weight: 400;
 }
 
 form h1 {
@@ -207,7 +223,7 @@ form .comentarioLinha1 {
 }
 
 form .comentarioLinha1 input {
-    width: 22.125rem;
+    width: 21.125rem;
     height: 2.625rem;
     background: #FFFFFF;
     border: 0.063rem solid #EEEEEE;
@@ -289,4 +305,34 @@ form textarea:hover {
 
 .info-Contatos p {
     margin-left: 1.5rem;
+}
+
+.item-contato form {
+    margin-left: 0.5rem;
+}
+
+.comentarioLinha2 {
+    display: flex;
+    flex-direction: row;
+    width: 22rem;
+}
+
+.comentarioLinha2 input {
+    width: 42.625rem;
+    height: 2.625rem;
+    background: #FFFFFF;
+    border: 0.063rem solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 0.125rem;
+    margin-top: 0.658rem;
+    margin-bottom: 1.438rem;
+}
+
+form .comentarioLinha2 input:hover {
+    border-color: #FE0078;
+}
+
+.form-Contato h1 {
+    font-size: 1rem;
+    margin-left: 0.9rem;
 }

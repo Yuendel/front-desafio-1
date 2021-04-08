@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Continue lendo, card1 - Yuendel Farias</title>
+    <title>Contato</title>
 </head>
 
 
@@ -22,7 +22,7 @@
             </div>
         </header>
         <main>
-            <div class="item">
+            <div class="item item-contato">
                 <div class="contato">
                     <h1>Contato</h1>
                     <p>
@@ -58,12 +58,34 @@
                     </div>
                     <p>suporte@cubos.academy</p>
                 </div>
+                <form action="get" class="form-Contato">
 
-                <div class="main-footer">
-                    <div class="button">
-                        <a href="./continueReading1.html"> Continuar Lendo </a>
+                    <h1>Entre em Contato</h1>
+                    <div class="comentarioLinha1">
+                        <label for="lblNome"> Nome
+                            <input type="text" name="txtNome" id="txtNome">
+                        </label>
+
+
+                        <label for="lblEmail"> E-mail
+                            <input type="text" name="txtEmail">
+                        </label>
                     </div>
-                </div>
+
+                    <div class="comentarioLinha2">
+                        <label for="lblAssunto"> Assunto
+                            <input type="text" name="txtAssunto">
+                        </label>
+                    </div>
+
+                    <label for="lblComentario"> Comentário </label>
+                    <textarea name="txtaComentario" id="txtaComentario" cols="30" rows="10"></textarea>
+
+                    <div class="main-footer">
+                        <div class="button button-Comentario">
+                            <a href="./index.html"> Enviar </a>
+                        </div>
+                    </div>
             </div>
 
         </main>
