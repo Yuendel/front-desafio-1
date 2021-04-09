@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.3rem;
+    padding: 0.85rem;
 }
 
 .item {
@@ -90,6 +90,8 @@ main img {
     width: 9.6rem;
     height: 2.688rem;
     margin: 1.25rem;
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
 .button:hover {
@@ -261,6 +263,14 @@ form textarea:hover {
     width: 7.36rem;
     margin: 1.25rem;
     margin-right: 0;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.button-Comentario:hover {
+    background-color: #EEEEEE;
+    border-color: #FE0078;
+    color: #000000;
 }
 
 /*Extra styles of "contact"*/
@@ -335,4 +345,18 @@ form .comentarioLinha2 input:hover {
 .form-Contato h1 {
     font-size: 1rem;
     margin-left: 0.9rem;
+}
+
+/*Extra styles of "sobre"*/
+
+.card-Sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+}
+
+.card-Sobre p {
+    text-align: center;
 }
